@@ -17,7 +17,7 @@
       <a-text
         value="Hola."
         look-at="[gps-camera]"
-        scale="120 120 120"
+        scale="50 50 50"
       ></a-text>
 	  <a-entity gltf-model="concha.glb" scale="2 2 2" position="0 0.5 -3" rotation="0 0 0"></a-entity>
       <a-camera gps-camera rotation-reader> </a-camera>
