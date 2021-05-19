@@ -11,7 +11,10 @@
     </script>
 </head>
 
+<link rel="stylesheet" href="./index.css">
 
+<!-- Dynamically add places from Javascript -->
+<script src="./places.js"></script>
 
 <body style='margin: 0; overflow: hidden;'>
     <a-scene
@@ -25,8 +28,5 @@
 		</a-camera>
 	</a-scene>
 </body>
-	<link rel="stylesheet" href="../../src/stylesheets/index.css">
 
-<!-- Dynamically add places from Javascript -->
-<script src="./places.js"></script>
 </html>
