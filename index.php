@@ -28,3 +28,4 @@
 		</a-camera>
 	</a-scene>
 </body>
+</html>
