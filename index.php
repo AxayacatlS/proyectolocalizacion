@@ -9,12 +9,13 @@
     <script>
         THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
     </script>
-</head>
-
-<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="./index.css">
 
 <!-- Dynamically add places from Javascript -->
 <script src="./places.js"></script>
+</head>
+
+
 
 <body style='margin: 0; overflow: hidden;'>
     <a-scene
@@ -28,5 +29,5 @@
 		</a-camera>
 	</a-scene>
 </body>
-
+</html>
 
