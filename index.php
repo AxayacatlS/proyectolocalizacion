@@ -19,7 +19,7 @@
         look-at="[gps-camera]"
         scale="20 20 20"
       ></a-text>
-	  <a-entity gltf-model="concha.glb" look-at="[gps-camera]" scale="10 10 10" position="0 0.5 -3" rotation="0 90 0"></a-entity>
+	  <a-entity gltf-model="concha.glb" look-at="[gps-camera]" scale="10 10 10" position="0 0.5 -3" rotation="0 0 90"></a-entity>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
