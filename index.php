@@ -14,12 +14,12 @@
       embedded
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
-      <!--<a-text
-        value="Hola."
+      <a-text
+        value="Mejillon"
         look-at="[gps-camera]"
-        scale="50 50 50"
-      ></a-text>-->
-	  <a-entity gltf-model="concha.glb" look-at="[gps-camera]" scale="10 10 10" position="0 0.5 -3" rotation="0 0 0" gps-entity-place="latitude: 17.346900600000073; longitude: -98.03058782944771;"></a-entity>
+        scale="20 20 20"
+      ></a-text>
+	  <a-entity gltf-model="concha.glb" look-at="[gps-camera]" scale="10 10 10" position="0 0.5 -3" rotation="0 0 0"></a-entity>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
